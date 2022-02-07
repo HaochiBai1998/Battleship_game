@@ -190,6 +190,7 @@ final AbstractShipFactory<Character> shipFactory;
 
 and initialize it in the constructor to a new V1ShipFactory().
 
+
 Now lets find where we did
  RectangleShip<Character> s = new RectangleShip<Character>(p.getWhere(), 's', '*');
 

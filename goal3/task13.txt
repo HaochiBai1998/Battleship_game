@@ -84,6 +84,10 @@ Let's add that now.  Put this in the Ship interface:
    */
   public Iterable<Coordinate> getCoordinates();
 
+
+
+
+
 Then go implement it in BasicShip.  This method is one line, since
 a HashMap has a .keySet() which returns a Set of the keys,
 (so myPieces.keySet() returns a Set<Coordinate>) and Set<T> implements Iterable<T>.

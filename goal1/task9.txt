@@ -39,7 +39,7 @@ put in by gradle init as placeholders.
 Instead, let us declare three fields in this class:
   (1) final Board<Character> theBoard
   (2) final BoardTextView view
-  (3) final BufferedReader inputReader
+  (3) final BufferedReatder inpuReader
   (4) final PrintStream out 
 The third and fourth of these are in java.io, so needs to be imported.  Hit "C-c TAB" to import them
 

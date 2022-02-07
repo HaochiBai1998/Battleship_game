@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.adh39.battleship.TextPlayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-05T10:33:52" hostname="LAPTOP-USJPC1OA" time="0.005">
+  <properties/>
+  <testcase name="test_read_placement()" classname="edu.duke.adh39.battleship.TextPlayerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

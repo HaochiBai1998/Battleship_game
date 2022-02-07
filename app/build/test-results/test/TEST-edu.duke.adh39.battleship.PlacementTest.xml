@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.adh39.battleship.PlacementTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-05T10:33:52" hostname="LAPTOP-USJPC1OA" time="0.019">
+  <properties/>
+  <testcase name="test_string_constructor_valid_cases()" classname="edu.duke.adh39.battleship.PlacementTest" time="0.001"/>
+  <testcase name="test_where_and_orientation()" classname="edu.duke.adh39.battleship.PlacementTest" time="0.001"/>
+  <testcase name="test_hashCode()" classname="edu.duke.adh39.battleship.PlacementTest" time="0.009"/>
+  <testcase name="test_string_constructor_error_cases()" classname="edu.duke.adh39.battleship.PlacementTest" time="0.005"/>
+  <testcase name="test_equals()" classname="edu.duke.adh39.battleship.PlacementTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

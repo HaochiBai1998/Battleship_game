@@ -15,7 +15,7 @@ If you look back at the README, we need to do a few things here.
 Player A: you are going to place the following ships (which are all
 rectangular). For each ship, type the coordinate of the upper left
 side of the ship, followed by either H (for horizontal) or V (for
-vertical).  For example M4H would place a ship horizontally starting
+vertical).  For example M4H would place a ship horzontally starting
 at M4 and going to the right.  You have
 
 2 "Submarines" ships that are 1x2 
@@ -84,8 +84,6 @@ and have separate things that are not appropriate, e.g.
  Board<Character> b2 = new BattleShipBoard<Character>(10, 20);
  BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
  V1ShipFactory factory = new V1ShipFactory();
- TextPlayer p1 = new TextPlayer("A", b1, input, System.out, factory);
- TextPlayer p2 = new TextPlayer("B", b2, input, System.out, factory);
  
 Note that we need to do all the wrapping of System.in ONCE and share
 the BufferedReader. If we have two BufferedReaders operating on the same
@@ -227,6 +225,12 @@ instead of
   Run all the tests, make sure they pass, and that you have 100% code coverage
   except for App.java and AppTest.java (which will be 0).
 
+
+
+//finished
+
+
+
 (3) Let's add a method
 
  public void doPlacementPhase() throws IOException
@@ -237,6 +241,8 @@ instead of
    (b) print the instructions message (from the README,
        but also shown again near the top of this file)
    (c) call doOnePlacement to place one ship
+
+
 
  Hopefully by now, I don't have to tell you to add testcases
  for this right after (or right before) you write it... But

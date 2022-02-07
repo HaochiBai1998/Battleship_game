@@ -288,6 +288,11 @@ Note that without the convience constructors we just added, this would instead b
    RecangleShip<Character> s = new RectangleShip<Character>(c, 1, 1, new SimpleShipDisplayInfo<Character>('s', '*'));
 which is kind of a mouthful..
 
+
+
+
+
+//finished
 How do you find all of these?  go to BasicShip.java, and where it says
 
 class BasicShip

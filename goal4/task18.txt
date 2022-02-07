@@ -45,7 +45,6 @@ the rules---not all 3).
 For any invalid placement string (caught by the Placement constructor), we can just
 report: "That placement is invalid: it does not have the correct format."
 
-
 The first thing to do is to change the PlacementRuleChecker, and its subclasses,
 as well as tryAddShip.   You will need to change a variety of tests to match this change
 too.   I'll note that my tests for InBoundsRuleChecker already had cases
@@ -56,6 +55,9 @@ to be resilient to change: we might have other ships in the future that could ca
 such a problem.  I'll also note that if you didn't test all these cases in the original
 testing, going off the left or top is not possible with a placement string, but
 you can make a Coordinate with a row and a column and pass that to Placement's constructor.
+
+//finish
+
 
 Once you've made these changes, run all your tests before you proceed.  I'll say that
 when I did this, I auto-completed the wrong variable in my changes to tryAddShip and
